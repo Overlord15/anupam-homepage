@@ -1,5 +1,3 @@
-import { NextPage } from 'next'
-import styles from '../styles/Home.module.css'
 import Head from 'next/head'
 import Nextlink from 'next/link'
 import { Button, Text, Center, Box, Container, Flex, Heading, Icon, Link, Spacer, useMediaQuery, useColorModeValue, Image } from '@chakra-ui/react'
@@ -27,6 +25,7 @@ export default function Home() {
   const isDark = colorMode === "dark";
   const [isLargerThan650] = useMediaQuery('(min-width: 650px)')
   const [isLargerThan6502] = useMediaQuery('(max-width: 650px)')
+
   return (
     <>
       <Head>
@@ -65,7 +64,7 @@ export default function Home() {
                       Anupam Kumar
                     </Heading>
                   </Center>
-                    <Text textAlign="center" fontSize="16px" fontWeight="600">Digital Craftsman ( Artist / Developer / Designer )</Text>
+                  <Text textAlign="center" fontSize="16px" fontWeight="600">Digital Craftsman ( Artist / Developer / Designer )</Text>
                 </Box>
                 <Center mt="6">
                   <Image border="2px" borderRadius='full' boxSize='150px' src='anupam.jpg' objectFit="cover" alt='Anupam Kumar' />
@@ -105,11 +104,11 @@ export default function Home() {
             <BioSection>
               <BioYear>2020</BioYear>
               Completed the Higher Secondery&apos;s Program in the  School of
-              Atulmoni Polytechnic H.S High School <br/>( অতুলমনি পলিটেকনিক এইচএস উচ্চ বিদ্যালয় ).
+              Atulmoni Polytechnic H.S High School <br />( অতুলমনি পলিটেকনিক এইচএস উচ্চ বিদ্যালয় ).
             </BioSection>
             <BioSection>
               <BioYear>2020</BioYear>
-              Started pursuing BCA from Midnapore College Autonomus <br/> ( মেদিনীপুর কলেজ - অটোনোমাস ).
+              Started pursuing BCA from Midnapore College Autonomus <br /> ( মেদিনীপুর কলেজ - অটোনোমাস ).
             </BioSection>
             <BioSection>
               <BioYear>2021 to present</BioYear>
@@ -135,7 +134,7 @@ export default function Home() {
           </Flex>
           <Flex mt="5" flexDirection="column" alignItems="baseline">
             <Button variant="ghost" color="teal.300" ><FaGithub size="20" /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://github.com/Overlord15' isExternal><Text fontSize="18">@Overlord15</Text></Link></Button>
-            <Button variant="ghost" color="teal.300" ><FaTwitter size="20" /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://twitter.com/AnupamKhamrai' isExternal><Text fontSize="18">@AnupamKhamrai</Text></Link></Button>
+            <Button variant="ghost" color="teal.300" ><FaTwitter size="20" /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://twitter.com/1Khamrai' isExternal><Text fontSize="18">@1Khamrai</Text></Link></Button>
             <Button variant="ghost" color="teal.300" ><FaFacebook size="20" /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://www.facebook.com/anupam.khamrai.3/' isExternal><Text fontSize="18">@anupam.khamrai.3</Text></Link></Button>
             <Button variant="ghost" color="teal.300" ><FaInstagram size="20" /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://www.instagram.com/weird_anupam_king/' isExternal><Text fontSize="18">@weird_anupam_king</Text></Link></Button>
           </Flex>
