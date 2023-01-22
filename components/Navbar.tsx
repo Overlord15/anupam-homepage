@@ -7,7 +7,6 @@ import { VscGithub } from 'react-icons/vsc'
 import { GiRabbit } from 'react-icons/gi'
 import ThemeToggleButton from './Theme-toggler-button';
 
-
 export default function Navbar() {
     const { colorMode, toggleColorMode } = useColorMode();
     const isDark = colorMode === "dark";
@@ -25,7 +24,7 @@ export default function Navbar() {
 
                     <Nextlink href="/" passHref scroll={false}>
                         <Link alignItems="center" fontFamily="'M PLUS Rounded 1c', sans-serif;" display="flex" as="button" cursor="pointer" fontSize="18.5" p="5px" textDecoration="none" href='/' _hover={{ textDecoration: "none" }}>
-                            <GiRabbit style={{ rotate: '-30deg', marginRight: '5'}} className="rabbit"/>&nbsp;Anupam Khamrai
+                            <Flex alignItems="center"><GiRabbit style={{rotate:'-20deg'}}/>&nbsp;&nbsp;Anupam Khamrai</Flex>
                         </Link>
                     </Nextlink>
                     <div>
