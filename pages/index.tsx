@@ -7,6 +7,7 @@ import styled from '@emotion/styled'
 import Section from '../components/Section'
 import Navbar from '../components/Navbar'
 import BackToTopButton from '../components/scrollbtn';
+import dynamic from 'next/dynamic';
 
 export const BioSection = styled(Box)`
   padding-left: 3.4em;
@@ -22,7 +23,7 @@ export const BioYear = styled.span`
   font-weight: 400;
 `
 
-export default function Home() {
+const Home = () => {
     
     const { colorMode, toggleColorMode } = useColorMode();
     const isDark = colorMode === "dark";
@@ -113,7 +114,7 @@ export default function Home() {
                         </Text>
                     </Flex>
                     <Text pl="2" mt="3" fontWeight="semibold">
-                        &nbsp;&nbsp;&nbsp;Art, Music, Drawing, Crafting,{' '}<Link href="https://500px.com/p/mxq8599pzp?view=photos" target="_blank" textDecoration="none" color="pink.300" _hover={{ textDecoration: "underline", color: "pink.300", textUnderlineOffset: 3 }}>Photography</Link>,Watching anime and Drama, Travelling
+                        &nbsp;&nbsp;&nbsp;Art, Music, Drawing, Crafting,{' '}<Link textDecoration="none" color="pink.300" _hover={{ textDecoration: "underline", color: "pink.300", textUnderlineOffset: 3 }}>Photography</Link>.
                     </Text>
                 </Section>
                 <Section delay={0.9}>
@@ -156,3 +157,5 @@ export default function Home() {
         </>
     )
 }
+
+export default dynamic (() => Promise.resolve(Home), {ssr: false})
