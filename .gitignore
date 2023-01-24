@@ -8,7 +8,7 @@
 
 # User-specific stuff
 .idea
-
+.lock
 # CMake
 cmake-build-*/
 # File-based project format
