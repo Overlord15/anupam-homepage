@@ -98,7 +98,7 @@ export default function Home() {
                         </BioSection>
                         <BioSection>
                             <BioYear>2020</BioYear>
-                            Completed secondary education from Kharagpur Atulmoni Polytechnic High School ( খড়গপুর অতুলমনি পলিটেকনিক হাই স্কুল ).
+                            Completed secondary education from Kharagpur Atulmoni Polytechnic High School (খড়গপুর অতুলমনি পলিটেকনিক হাই স্কুল).
                         </BioSection>
                         <BioSection>
                             <BioYear>2020 to present</BioYear>
@@ -113,7 +113,7 @@ export default function Home() {
                         </Text>
                     </Flex>
                     <Text pl="2" mt="3" fontWeight="semibold">
-                        &nbsp;&nbsp;&nbsp;Art, Music, Drawing, Crafting,{' '}<Link textDecoration="none" color="pink.300" _hover={{ textDecoration: "underline", color: "pink.300", textUnderlineOffset: 3 }}>Photography</Link>.
+                        &nbsp;&nbsp;&nbsp;Art, Music, Drawing, Crafting,{' '}<Link href="https://500px.com/p/mxq8599pzp?view=photos" target="_blank" textDecoration="none" color="pink.300" _hover={{ textDecoration: "underline", color: "pink.300", textUnderlineOffset: 3 }}>Photography</Link>,Watching anime and Drama, Travelling
                     </Text>
                 </Section>
                 <Section delay={0.9}>
