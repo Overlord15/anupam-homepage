@@ -8,6 +8,7 @@ import { GiRabbit } from 'react-icons/gi'
 import { TfiAlignJustify } from 'react-icons/tfi'
 import { IoIosCreate } from 'react-icons/io'
 import ThemeToggleButton from './Theme-toggler-button';
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 export default function Navbar() {
     const { colorMode, toggleColorMode } = useColorMode();
@@ -40,7 +41,8 @@ export default function Navbar() {
                                         <Link pl="5px" pr="5px" ml="5" mt="10px" size="sm" border="2px" borderColor="transparent" _hover={{ color: "green.500", textDecoration: "underline", }} fontWeight="400" href="../work">Post</Link>
                                     </Nextlink>
                                     <Box ml="5" mr=""><VscGithub /></Box>
-                                    <Link ml="6px" target="_blank" href='https://github.com/Overlord15/anupam-homepage' size="sm" _hover={{ color: "pink.500", textDecoration: "underline", }} fontWeight="400">Source</Link>
+                                    <Link mr="6px" ml="6px" target="_blank" href='https://github.com/Overlord15/anupam-homepage' size="sm" _hover={{ color: "pink.500", textDecoration: "underline", }} fontWeight="400">Source</Link>
+                                    <ExternalLinkIcon/>
                                 </Flex>
                             </p>
                         }
