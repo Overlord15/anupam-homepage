@@ -29,7 +29,7 @@ const Work = () => {
                 <Nextlink passHref scroll={false} href="/work/anupam-homepage">
                   <Link href="/work/anupam-homepage" _hover={{ textDecoration: "none" }}>
                     <Box maxW='350px' borderWidth='1px' borderRadius='lg' overflow='hidden'>
-                      <Image src="anupam-khamrai-homepage.png" alt="Rear view of modern home with pool" />
+                      <Image src="anupam-khamrai-homepage.png" alt="Anupam Homepage" loading='eager' />
                       <Box p='4'>
                         <Box mt='1' fontWeight='semibold' as='h4' lineHeight='tight'>
                           {''}<Text color="pink.500">Anupam Homepage</Text> Portfolio Website.
@@ -54,7 +54,7 @@ const Work = () => {
                 <Nextlink passHref scroll={false} href="/work/anupam-homepage">
                   <Link href="/work/anupam-homepage" _hover={{ textDecoration: "none" }}>
                     <Box maxW='350px' borderWidth='1px' borderRadius='lg' overflow='hidden'>
-                      <Image src="anupam-khamrai-homepage.png" alt="Rear view of modern home with pool" />
+                      <Image src="anupam-khamrai-homepage.png" alt="Anupam Homepage" loading='eager' />
                       <Box p='4'>
                         <Box mt='1' fontWeight='semibold' as='h4' lineHeight='tight'>
                           {''}<Text color="pink.500">Anupam Homepage</Text> Portfolio Website.
