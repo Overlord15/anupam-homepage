@@ -70,7 +70,7 @@ const Home = () => {
                                     <p><Text fontWeight="semibold" pt="3" fontSize="inherit" textAlign="center">( Developer / Photographer / Digital Content Creator )</Text></p>
                                 </Center>
                                 <Center mt="8">
-                                    <Image border="2px" borderRadius='full' boxSize='150px' src='/anupam.png' objectFit="cover" alt='Anupam Kumar' />
+                                    <Image border="2px" borderRadius='full' boxSize='150px' src='/anupam.png' objectFit="cover" loading='eager' alt='Anupam Kumar' />
                                 </Center>
                             </p>
                         }
