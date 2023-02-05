@@ -28,7 +28,7 @@ const anupam_homepage = () => {
                 <Section delay={0.6}>
                     <Box>
                         <List>
-                            <ListItem>
+                            <ListItem mb="4">
                                 <Badge mr="2" mb="2" colorScheme={"whatsapp"} borderRadius={3} px="1.5" py="1">STACK</Badge><span>NextJS 13, Chakra-UI, React, Mongo DB, NodeJS, Express.</span>
                             </ListItem>
                             <ListItem>

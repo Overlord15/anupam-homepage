@@ -18,7 +18,7 @@ const Footer = () => {
             <div>
                 {isLargerThan6502 &&
                     <p>
-                        <Box maxW="100%" h="30px" pb="10" pt="8" mb="12"><Text textAlign="center" fontSize="14px" fontWeight="600" color={"#5D5D5F"}>© 2023 Anupam Kumar Khamrai. All Rights Reserved.</Text></Box>
+                        <Box maxW="100%" h="30px" pb="10" pt="8" mb="6"><Text textAlign="center" fontSize="14px" fontWeight="600" color={"#5D5D5F"}>© 2023 Anupam Kumar Khamrai. All Rights Reserved.</Text></Box>
                     </p>
                 }
             </div>

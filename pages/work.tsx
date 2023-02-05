@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Nextlink from 'next/link'
 import Bge from '../components/badge'
 import Section from '../components/Section'
+import Footer from '../components/Footer'
 
 const Work = () => {
   const [isLargerThan650] = useMediaQuery('(min-width: 650px)')
@@ -72,6 +73,7 @@ const Work = () => {
             </p>
           }
         </Section>
+        <Footer />
       </Container>
     </>
   )

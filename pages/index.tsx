@@ -8,6 +8,7 @@ import Section from '../components/Section'
 import Navbar from '../components/Navbar'
 import BackToTopButton from '../components/scrollbtn';
 import dynamic from 'next/dynamic';
+import Footer from '../components/Footer';
 
 export const BioSection = styled(Box)`
   padding-left: 3.4em;
@@ -24,7 +25,7 @@ export const BioYear = styled.span`
 `
 
 const Home = () => {
-    
+
     const { colorMode, toggleColorMode } = useColorMode();
     const isDark = colorMode === "dark";
     const [isLargerThan650] = useMediaQuery('(min-width: 650px)')
@@ -110,7 +111,7 @@ const Home = () => {
                 <Section delay={0.7}>
                     <Flex>
                         <Text pl="2" style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif", fontSize: 20, fontWeight: "bold", lineHeight: 1, marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "#525252", textDecorationThickness: 4, textUnderlineOffset: 6 }}>
-                           <Flex>I <Text textColor="pink.300">&nbsp;♥</Text></Flex>
+                            <Flex>I <Text textColor="pink.300">&nbsp;♥</Text></Flex>
                         </Text>
                     </Flex>
                     <Text pl="2" mt="3" fontWeight="semibold">
@@ -138,24 +139,11 @@ const Home = () => {
                         </Center>
                     </Section>
                 </Section> */}
-                <div>
-                    {isLargerThan650 &&
-                        <p>
-                            <Box maxW="100%" h="30px" pb="1" pt="8" mb="6"><Text textAlign="center" fontSize="15px" fontWeight="300" fontFamily="'M PLUS Rounded 1c', sans-serif">© 2023 Anupam Kumar Khamrai. All Rights Reserved.</Text></Box>
-                        </p>
-                    }
-                </div>
-                <div>
-                    {isLargerThan6502 &&
-                        <p>
-                            <Box maxW="100%" h="30px" pb="10" pt="8" mb="6"><Text textAlign="center" fontSize="15px" fontWeight="300" fontFamily="'M PLUS Rounded 1c', sans-serif">© 2023 Anupam Kumar Khamrai. All Rights Reserved.</Text></Box>
-                        </p>
-                    }
-                </div>
+                <Footer />
             </Container>
             {/* <BackToTopButton /> */}
         </>
     )
 }
 
-export default dynamic (() => Promise.resolve(Home), {ssr: false})
+export default dynamic(() => Promise.resolve(Home), { ssr: false })
