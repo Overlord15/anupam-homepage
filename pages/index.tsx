@@ -54,7 +54,7 @@ const Home = () => {
                                         <p><Text fontWeight="semibold" pt="3" fontSize="15px">( Developer / Photographer / Digital Content Creator )</Text></p>
                                     </Box>
                                     <Spacer></Spacer>
-                                    <Image border="2px" mt="8" mr="5" borderRadius='full' boxSize='130px' src='/anupam.png' alt='Anupam Kumar' ml="6" />
+                                    <Image border="2px" mt="8" mr="5" borderRadius='full' boxSize='130px' src='https://scontent.fccu1-2.fna.fbcdn.net/v/t39.30808-1/329055309_892527608559003_5433098388549994164_n.jpg?stp=dst-jpg_p320x320&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_ohc=T9g60Zv57ZMAX_Ht0er&_nc_ht=scontent.fccu1-2.fna&oh=00_AfC2_gl_nJAZEzcZnyGVn4oCB1TAzH9LHaMwgUienWCleg&oe=63F5E478' alt='Anupam Kumar Khamrai Image Social' ml="6" />
                                 </Flex>
                             </p>
                         }
@@ -71,7 +71,7 @@ const Home = () => {
                                     <p><Text fontWeight="semibold" pt="3" fontSize="inherit" textAlign="center">( Developer / Photographer / Digital Content Creator )</Text></p>
                                 </Center>
                                 <Center mt="8">
-                                    <Image border="2px" borderRadius='full' boxSize='150px' src='/anupam.png' objectFit="cover" loading='eager' alt='Anupam Kumar' />
+                                    <Image border="2px" borderRadius='full' boxSize='150px' src='https://scontent.fccu1-2.fna.fbcdn.net/v/t39.30808-1/329055309_892527608559003_5433098388549994164_n.jpg?stp=dst-jpg_p320x320&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_ohc=T9g60Zv57ZMAX_Ht0er&_nc_ht=scontent.fccu1-2.fna&oh=00_AfC2_gl_nJAZEzcZnyGVn4oCB1TAzH9LHaMwgUienWCleg&oe=63F5E478' objectFit="cover" loading='eager' alt='Anupam Kumar Khamrai Image Social' />
                                 </Center>
                             </p>
                         }
