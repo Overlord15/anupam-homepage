@@ -13,7 +13,9 @@ const Work = () => {
   return (
     <>
       <Head>
-
+        <title>Anupam Kumar Khamrai - Works</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
+        <link rel="shortcut icon" href="/favicon.png" />
       </Head>
 
       <Navbar />

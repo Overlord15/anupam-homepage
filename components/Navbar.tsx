@@ -17,17 +17,12 @@ export default function Navbar() {
     const [isLargerThan6502] = useMediaQuery('(max-width: 650px)')
     return (
         <>
-            <Head>
-                <title>Anupam Khamrai - Homepage</title>
-                <link rel="apple-touch-icon" sizes="180x180" href="favicon.png" />
-                <link rel="shortcut icon" href="favicon.png" />
-            </Head>
             <Box as="nav" position="fixed" zIndex={1} backdropFilter="auto" backdropBlur="8px" w="100%" pt="2" pb="2">
                 <Container maxW="container.md" display="flex" alignItems="center" w="100%">
 
                     <Nextlink href="/" passHref scroll={false}>
                         <Link alignItems="center" fontFamily="'M PLUS Rounded 1c', sans-serif;" display="flex" as="button" cursor="pointer" fontSize="18.5" p="5px" textDecoration="none" href='/' _hover={{ textDecoration: "none" }}>
-                            <Flex alignItems="center"><GiRabbit/>&nbsp;&nbsp;Anupam Khamrai</Flex>
+                            <Flex alignItems="center"><GiRabbit />&nbsp;&nbsp;Anupam Khamrai</Flex>
                         </Link>
                     </Nextlink>
                     <div>
@@ -42,7 +37,7 @@ export default function Navbar() {
                                     </Nextlink> */}
                                     <Box ml="5" mr=""><VscGithub /></Box>
                                     <Link mr="6px" ml="6px" target="_blank" href='https://github.com/Overlord15/anupam-homepage' size="sm" _hover={{ color: "pink.500", textDecoration: "underline", }} fontWeight="400">Source</Link>
-                                    <ExternalLinkIcon/>
+                                    <ExternalLinkIcon />
                                 </Flex>
                             </p>
                         }
@@ -63,7 +58,7 @@ export default function Navbar() {
                                             <MenuItem as='button'><Text fontWeight="600"><Flex alignItems="center"><FaPaperPlane/>&nbsp;&nbsp;Post</Flex></Text></MenuItem>
                                         </Nextlink> */}
                                         <Nextlink target="_blank" href="https://github.com/Overlord15/anupam-homepage" passHref>
-                                            <MenuItem as='button'><Text fontWeight="600"><Flex alignItems="center"><VscGithub/>&nbsp;&nbsp;Source</Flex></Text></MenuItem>
+                                            <MenuItem as='button'><Text fontWeight="600"><Flex alignItems="center"><VscGithub />&nbsp;&nbsp;Source</Flex></Text></MenuItem>
                                         </Nextlink>
                                     </MenuList>
                                 </Menu>

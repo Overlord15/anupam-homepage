@@ -6,10 +6,16 @@ import { ChevronRightIcon, ExternalLinkIcon } from '@chakra-ui/icons'
 import dynamic from 'next/dynamic';
 import Footer from '../../components/Footer'
 import Section from '../../components/Section'
+import Head from 'next/head'
 
 const anupam_homepage = () => {
     return (
         <>
+            <Head>
+                <title>
+                    Anupam Kumar Khamrai - Works / anupam-homepage
+                </title>
+            </Head>
             <Navbar />
             <Container pt="100">
                 <Section delay={0.2}>
