@@ -46,6 +46,12 @@ const Home = () => {
                 <meta property="og:title" content="Anupam Kumar Khamrai - Homepage" />
                 <meta property="og:description" content="Greeting there ! My name is Anupam Kumar Khamrai. I am a indie developer. Welcome to my portfolio website ! ❤️" />
                 <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
+                <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
+                <meta property="og:image:secure_url" content="https://anupam-homepage.vercel.app/favicon.png" />
+                <meta property="og:image:width" content="292" />
+                <meta property="og:image:height" content="292" />
+                <meta property="og:image:alt" content="Rabbiton" />
+                <meta property="og:image:type" content="image/png" />
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Anupam Kumar Khamrai - Homepage" />
