@@ -27,8 +27,8 @@ const Work = () => {
         <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
         <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
         <meta property="og:image:secure_url" content="https://anupam-homepage.vercel.app/favicon.png" />
-        <meta property="og:image:width" content="292" />
-        <meta property="og:image:height" content="292" />
+        <meta property="og:image:width" content="512" />
+        <meta property="og:image:height" content="512" />
         <meta property="og:image:alt" content="Rabbiton" />
         <meta property="og:image:type" content="image/png" />
 
