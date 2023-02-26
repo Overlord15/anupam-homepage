@@ -25,12 +25,12 @@ const Work = () => {
         <meta property="og:title" content="Anupam Kumar Khamrai - Works" />
         <meta property="og:description" content="Here are some of my works. Check them out ! ❤️" />
         <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
-        <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
+        {/* <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
         <meta property="og:image:secure_url" content="https://anupam-homepage.vercel.app/favicon.png" />
         <meta property="og:image:width" content="512" />
         <meta property="og:image:height" content="512" />
         <meta property="og:image:alt" content="Rabbiton" />
-        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:type" content="image/png" /> */}
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Anupam Kumar Khamrai - Works" />
