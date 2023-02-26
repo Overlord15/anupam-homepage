@@ -17,9 +17,9 @@ const anupam_homepage = () => {
                 </title>
                 <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
                 <link rel="shortcut icon" href="/favicon.png" />
-                <meta name="description" content="Anupam Khamrai Homepage is my own work and as well as my portfolio website created using Next JS and Chakra UI. 😊" />
+                {/* <meta name="description" content="Anupam Khamrai Homepage is my own work and as well as my portfolio website created using Next JS and Chakra UI. 😊" />
                 <meta name="keywords" content="Anupam, Khamrai, Homepage, Next, JS, Chakra, UI, portfolio" />
-                {/* <meta name="author" content="Anupam Kumar Khamrai" />
+                <meta name="author" content="Anupam Kumar Khamrai" />
 
                 <meta property="og:url" content="https://anupam-homepage.vercel.app/work/anupam-homepage" />
                 <meta property="og:type" content="website" />

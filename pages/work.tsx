@@ -16,9 +16,9 @@ const Work = () => {
         <title>Anupam Kumar Khamrai - Works</title>
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
         <link rel="shortcut icon" href="/favicon.png" />
-        <meta name="description" content="Here are some of my works. Check them out ! ❤️" />
+        {/* <meta name="description" content="Here are some of my works. Check them out ! ❤️" />
         <meta name="keywords" content="anupam, kumar, khamrai, portfolio, indie, developer, nextjs, 13, chakraui, works" />
-        {/* <meta name="author" content="Anupam Kumar Khamrai" />
+        <meta name="author" content="Anupam Kumar Khamrai" />
 
         <meta property="og:url" content="https://anupam-homepage.vercel.app/work/anupam-homepage" />
         <meta property="og:type" content="website" />
