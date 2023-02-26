@@ -18,26 +18,20 @@ const Work = () => {
         <link rel="shortcut icon" href="/favicon.png" />
         <meta name="description" content="Here are some of my works. Check them out ! ❤️" />
         <meta name="keywords" content="anupam, kumar, khamrai, portfolio, indie, developer, nextjs, 13, chakraui, works" />
-        <meta name="author" content="Anupam Kumar Khamrai" />
+        {/* <meta name="author" content="Anupam Kumar Khamrai" />
 
         <meta property="og:url" content="https://anupam-homepage.vercel.app/work/anupam-homepage" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Anupam Kumar Khamrai - Works" />
         <meta property="og:description" content="Here are some of my works. Check them out ! ❤️" />
         <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
-        {/* <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
-        <meta property="og:image:secure_url" content="https://anupam-homepage.vercel.app/favicon.png" />
-        <meta property="og:image:width" content="512" />
-        <meta property="og:image:height" content="512" />
-        <meta property="og:image:alt" content="Rabbiton" />
-        <meta property="og:image:type" content="image/png" /> */}
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Anupam Kumar Khamrai - Works" />
         <meta name="twitter:description" content="Here are some of my works. Check them out ! ❤️" />
         <meta name="twitter:image" content="https://anupam-homepage.vercel.app/favicon.png" />
         <meta name="twitter:site" content="@anupam-homepage" />
-        <meta name="twitter:creator" content="@1Khamrai" />
+        <meta name="twitter:creator" content="@1Khamrai" /> */}
       </Head>
 
       <Navbar />
