@@ -16,9 +16,22 @@ const Work = () => {
         <title>Anupam Kumar Khamrai - Works</title>
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
         <link rel="shortcut icon" href="/favicon.png" />
-        <meta name="description" content="Here are some of my works. Watch them out ! ❤️" />
+        <meta name="description" content="Here are some of my works. Check them out ! ❤️" />
         <meta name="keywords" content="anupam, kumar, khamrai, portfolio, indie, developer, nextjs, 13, chakraui, works" />
         <meta name="author" content="Anupam Kumar Khamrai" />
+
+        <meta property="og:url" content="https://anupam-homepage.vercel.app/work/anupam-homepage" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Anupam Kumar Khamrai - Works" />
+        <meta property="og:description" content="Here are some of my works. Check them out ! ❤️" />
+        <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Anupam Kumar Khamrai - Works" />
+        <meta name="twitter:description" content="Here are some of my works. Check them out ! ❤️" />
+        <meta name="twitter:image" content="https://anupam-homepage.vercel.app/favicon.png" />
+        <meta name="twitter:site" content="@anupam-homepage" />
+        <meta name="twitter:creator" content="@1Khamrai" />
       </Head>
 
       <Navbar />

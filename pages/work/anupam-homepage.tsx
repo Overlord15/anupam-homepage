@@ -20,6 +20,19 @@ const anupam_homepage = () => {
                 <meta name="description" content="Anupam Khamrai Homepage is my own work and as well as my portfolio website created using Next JS and Chakra UI. 😊" />
                 <meta name="keywords" content="Anupam, Khamrai, Homepage, Next, JS, Chakra, UI, portfolio" />
                 <meta name="author" content="Anupam Kumar Khamrai" />
+
+                <meta property="og:url" content="https://anupam-homepage.vercel.app/work/anupam-homepage" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Anupam Kumar Khamrai - Works | anupam-homepage" />
+                <meta property="og:description" content="Anupam Khamrai Homepage is my own work and as well as my portfolio website created using Next JS and Chakra UI. 😊" />
+                <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Anupam Kumar Khamrai - Works | anupam-homepage" />
+                <meta name="twitter:description" content="Anupam Khamrai Homepage is my own work and as well as my portfolio website created using Next JS and Chakra UI. 😊" />
+                <meta name="twitter:image" content="https://anupam-homepage.vercel.app/favicon.png" />
+                <meta name="twitter:site" content="@anupam-homepage" />
+                <meta name="twitter:creator" content="@1Khamrai" />
             </Head>
             <Navbar />
             <Container pt="100">
