@@ -13,8 +13,13 @@ const anupam_homepage = () => {
         <>
             <Head>
                 <title>
-                    Anupam Kumar Khamrai - Works / anupam-homepage
+                    Anupam Kumar Khamrai - Works | anupam-homepage
                 </title>
+                <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
+                <link rel="shortcut icon" href="/favicon.png" />
+                <meta name="description" content="Anupam Khamrai Homepage is my own work and as well as my portfolio website created using Next JS and Chakra UI. 😊" />
+                <meta name="keywords" content="Anupam, Khamrai, Homepage, Next, JS, Chakra, UI, portfolio" />
+                <meta name="author" content="Anupam Kumar Khamrai" />
             </Head>
             <Navbar />
             <Container pt="100">
