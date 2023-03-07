@@ -36,10 +36,11 @@ const Home = () => {
                 <title>Anupam Kumar Khamrai - Homepage</title>
                 <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
                 <link rel="shortcut icon" href="/favicon.png" />
-{/* 
-                <meta name="description" content="Greeting there ! My name is Anupam Kumar Khamrai. I am a indie developer. Welcome to my portfolio website ! ❤️" />
                 <meta name="keywords" content="anupam, kumar, khamrai, portfolio, indie, developer" />
                 <meta name="author" content="Anupam Kumar Khamrai" />
+                {/* 
+                <meta name="description" content="Greeting there ! My name is Anupam Kumar Khamrai. I am a indie developer. Welcome to my portfolio website ! ❤️" />
+                
 
                 <meta property="og:url" content="https://anupam-homepage.vercel.app/work/anupam-homepage" />
                 <meta property="og:type" content="website" />
