@@ -36,6 +36,7 @@ const Home = () => {
                 <title>Anupam Kumar Khamrai - Homepage</title>
                 <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
                 <link rel="shortcut icon" href="/favicon.png" />
+                <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
                 <meta name="keywords" content="anupam, kumar, khamrai, portfolio, indie, developer" />
                 <meta name="author" content="Anupam Kumar Khamrai" />
                 {/* 
