@@ -35,8 +35,8 @@ const Home = () => {
             <Head>
                 <title>Anupam Kumar Khamrai - Homepage</title>
                 <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
-                <link rel="favicon" href="/favicon.png" />
-                <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+                <link rel="favicon" href="https://anupam-homepage.vercel.app/favicon.png" />
+                <link rel="shortcut icon" href="https://anupam-homepage.vercel.app/favicon.png" type="image/x-icon" />
                 <meta name="keywords" content="anupam, kumar, khamrai, portfolio, indie, developer" />
                 <meta name="author" content="Anupam Kumar Khamrai" />
                 {/* 
@@ -134,7 +134,7 @@ const Home = () => {
                         </Text>
                     </Flex>
                     <Text pl="2" mt="3" fontWeight="semibold">
-                        &nbsp;&nbsp;&nbsp;Art, Music, Drawing, Crafting,{' '}<Link textDecoration="none" color="pink.300" _hover={{ textDecoration: "underline", color: "pink.300", textUnderlineOffset: 3 }}>Photography</Link>.
+                        &nbsp;&nbsp;&nbsp;Art, Music, Drawing, Crafting,{' '}<Link textDecoration="none" color="pink.300" href='https://500px.com/p/mxq8599pzp?view=photos' isExternal _hover={{ textDecoration: "underline", color: "pink.300", textUnderlineOffset: 3 }}>Photography</Link>.
                     </Text>
                 </Section>
                 <Section delay={0.9}>
