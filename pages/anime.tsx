@@ -12,7 +12,7 @@ const anime = () => {
             <Container pt="20">
                 <div>
                     {
-                        img.map((index) => <img src={index.src} alt={index.title}></img>)
+                        img.map((index) => <img src={index.src} alt={index.title} key={index.id}></img>)
                     }
                 </div>
             </Container>
