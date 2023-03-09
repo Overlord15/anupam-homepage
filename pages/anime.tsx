@@ -4,7 +4,7 @@ import { Container } from '@chakra-ui/react'
 
 const anime = () => {
     let img = [
-        { src: '../../public/KingsOfAvalon/1.jpg' }
+        { src: 'https://anupam-homepage.vercel.app/1.jpg', title:'1one' }
     ]
     return (
         <>
@@ -12,7 +12,7 @@ const anime = () => {
             <Container pt="20">
                 <div>
                     {
-                        img.map((index) => <img src={index.src}></img>)
+                        img.map((index) => <img src={index.src} alt={index.title}></img>)
                     }
                 </div>
             </Container>
