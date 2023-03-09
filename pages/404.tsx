@@ -11,7 +11,7 @@ const Notfound = () => {
             <Navbar />
             <Container maxH="80" pt="100" justifyContent={"center"} alignItems={"center"}>
                 <Text textAlign={"center"} >Requested Page Not Found. Click on the below home button to return.</Text>
-                <Center><Image borderRadius="15" py="20" src="/404.gif" /></Center>
+                <Center><Image borderRadius="15" py="20" src="/404.gif" alt="404" /></Center>
                 <Nextlink href="/">
                     <Center><IconButton px="10" py="5" variant={"outline"} colorScheme={"teal"} aria-label='Home Link' icon={<ImHome3 />} /></Center>
                 </Nextlink>
