@@ -4,7 +4,7 @@ import { Container } from '@chakra-ui/react'
 
 const anime = () => {
     let img = [
-        { src: 'https://anupam-homepage.vercel.app/1.jpg', title:'1one' }
+        { id: '1', src: 'https://anupam-homepage.vercel.app/1.jpg', title: '1one' }
     ]
     return (
         <>
