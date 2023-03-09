@@ -35,6 +35,9 @@ export default function Navbar() {
                                     {/* <Nextlink href="../home/post" passHref scroll={false}>
                                         <Link pl="5px" pr="5px" ml="5" mt="10px" size="sm" border="2px" borderColor="transparent" _hover={{ color: "green.500", textDecoration: "underline", }} fontWeight="400" href="../work">Post</Link>
                                     </Nextlink> */}
+                                    <Nextlink href="/anime" passHref scroll={false}>
+                                        <Link href="/anime" pl="5px" pr="5px" size="sm" ml="7" border="2px" borderColor="transparent" _hover={{ color: "red.500", textDecoration: "underline", }} fontWeight="400">Anime</Link>
+                                    </Nextlink>
                                     <Box ml="5" mr=""><VscGithub /></Box>
                                     <Link mr="6px" ml="6px" target="_blank" href='https://github.com/Overlord15/anupam-homepage' size="sm" _hover={{ color: "pink.500", textDecoration: "underline", }} fontWeight="400">Source</Link>
                                     <ExternalLinkIcon />
