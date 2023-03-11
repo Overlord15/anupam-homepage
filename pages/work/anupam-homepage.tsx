@@ -17,7 +17,7 @@ const anupam_homepage = () => {
                 </title>
                 <link rel="apple-touch-icon" sizes="180x180" href="https://anupam-homepage.vercel.app/favicon.png" />
                 <link rel="shortcut icon" href="https://anupam-homepage.vercel.app/favicon.png" />
-                {/* <meta name="description" content="Anupam Khamrai Homepage is my own work and as well as my portfolio website created using Next JS and Chakra UI. 😊" />
+                <meta name="description" content="Anupam Khamrai Homepage is my own work and as well as my portfolio website created using Next JS and Chakra UI. 😊" />
                 <meta name="keywords" content="Anupam, Khamrai, Homepage, Next, JS, Chakra, UI, portfolio" />
                 <meta name="author" content="Anupam Kumar Khamrai" />
 
@@ -32,7 +32,7 @@ const anupam_homepage = () => {
                 <meta name="twitter:description" content="Anupam Khamrai Homepage is my own work and as well as my portfolio website created using Next JS and Chakra UI. 😊" />
                 <meta name="twitter:image" content="https://anupam-homepage.vercel.app/favicon.png" />
                 <meta name="twitter:site" content="@anupam-homepage" />
-                <meta name="twitter:creator" content="@1Khamrai" /> */}
+                <meta name="twitter:creator" content="@1Khamrai" />
             </Head>
             <Navbar />
             <Container pt="100">
