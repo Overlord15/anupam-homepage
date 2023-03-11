@@ -37,22 +37,25 @@ const Home = () => {
                 <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
                 <link rel="favicon" href="https://anupam-homepage.vercel.app/favicon.png" />
                 <link rel="shortcut icon" href="https://anupam-homepage.vercel.app/favicon.png" type="image/x-icon" />
-                <meta name="keywords" content="anupam, kumar, khamrai, portfolio, indie, developer" />
-                <meta name="author" content="Anupam Kumar Khamrai" />
+
                 <meta name="description" content="Greeting there ! My name is Anupam Kumar Khamrai. I am a indie developer. Welcome to my portfolio website ! ❤️" />
+
+                <meta itemProp="name" content="Anupam Kumar Khamrai - Homepage" />
+                <meta itemProp="description" content="Greeting there ! My name is Anupam Kumar Khamrai. I am a indie developer. Welcome to my portfolio website ! ❤️" />
+                <meta itemProp="image" content="https://anupam-homepage.vercel.app/favicon.png" />
+
+                <meta property="og:url" content="https://anupam-homepage.vercel.app" />
+                <meta property="og:type" content="website" />
                 <meta property="og:title" content="Anupam Kumar Khamrai - Homepage" />
-                <meta property="og:url" content="https://anupam-homepage.vercel.app/work/anupam-homepage" />
                 <meta property="og:description" content="Greeting there ! My name is Anupam Kumar Khamrai. I am a indie developer. Welcome to my portfolio website ! ❤️" />
                 <meta property="og:image" content="https://anupam-homepage.vercel.app/favicon.png" />
 
-                <meta property="og:type" content="website" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Anupam Kumar Khamrai - Homepage" />
                 <meta name="twitter:description" content="Greeting there ! My name is Anupam Kumar Khamrai. I am a indie developer. Welcome to my portfolio website ! ❤️" />
                 <meta name="twitter:image" content="https://anupam-homepage.vercel.app/favicon.png" />
                 <meta name="twitter:site" content="@anupam-homepage" />
                 <meta name="twitter:creator" content="@1Khamrai" />
-
             </Head>
             <Navbar />
             <Container pt="100">
