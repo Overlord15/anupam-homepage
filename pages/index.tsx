@@ -74,7 +74,7 @@ const Home = () => {
                                         <p><Text fontWeight="semibold" pt="3" fontSize="15px">( Developer / Photographer / Digital Content Creator )</Text></p>
                                     </Box>
                                     <Spacer></Spacer>
-                                    <Image border="2px" mt="8" mr="5" borderRadius='full' boxSize='130px' src='anupam.png' alt='Anupam Kumar Khamrai Image Social' ml="6" />
+                                    <Image border="2px" mt="8" mr="5" borderRadius='full' boxSize='130px' src='anupamlite.jpg' alt='Anupam Kumar Khamrai Image Social' ml="6" />
                                 </Flex>
                             </p>
                         }
@@ -91,7 +91,7 @@ const Home = () => {
                                     <p><Text fontWeight="semibold" pt="3" fontSize="inherit" textAlign="center">( Developer / Photographer / Digital Content Creator )</Text></p>
                                 </Center>
                                 <Center mt="8">
-                                    <Image border="2px" borderRadius='full' boxSize='150px' src='anupam.png' objectFit="cover" loading='eager' alt='Anupam Kumar Khamrai Image Social' />
+                                    <Image border="2px" borderRadius='full' boxSize='150px' src='anupamlite.jpg' objectFit="cover" loading='eager' alt='Anupam Kumar Khamrai Image Social' />
                                 </Center>
                             </p>
                         }
