@@ -6,9 +6,10 @@ import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa'
 import styled from '@emotion/styled'
 import Section from '../components/Section'
 import Navbar from '../components/Navbar'
-import BackToTopButton from '../components/scrollbtn';
+// import BackToTopButton from '../components/scrollbtn';
 import dynamic from 'next/dynamic';
 import Footer from '../components/Footer';
+import ThreeJSComponent from '../components/Model';
 
 export const BioSection = styled(Box)`
   padding-left: 3.4em;
@@ -62,6 +63,9 @@ const Home = () => {
                 <Section delay={0.1}>
                     <Box fontSize="15px" fontWeight="semibold" border="lg" mb="12" p="3" textAlign="center" borderRadius="8px" bg={useColorModeValue('whiteAlpha.400', 'whiteAlpha.200')} style={{ backdropFilter: 'blur(10px)' }}>
                         Hello there, I&apos;m Anupam an Indie Developer based in India.
+                    </Box>
+                    <Box>
+                        <ThreeJSComponent />
                     </Box>
                     <div>
                         {isLargerThan650 &&
