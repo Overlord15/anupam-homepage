@@ -1,46 +1,20 @@
-/* @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;700&display=swap'); */
+@font-face {
+  font-family: "DM MONO ITALIC";
+  src: url('../public/font/DM\ MONO\ ITALIC.ttf');
+}
+
+@font-face {
+  font-family: "DM MONO";
+  src: url('../public/font/DM\ MONO.ttf');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "DM MONO";
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-
-  body {
-    color: white;
-    background: black;
-  }
-}
-
-.rabbit {
-  rotate: -30deg;
-}
-
-.rabbit::hover {
-  animation: rabbit 3s infinite ease-in-out;
-}
-
-@keyframes rabbit {
-  0% {
-    rotate: 0deg;
-  }
-
-  100% {
-    rotate: -30deg;
-  }
+.cf {
+  font-family: "DM MONO";
 }

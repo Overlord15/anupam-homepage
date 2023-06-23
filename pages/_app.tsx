@@ -5,6 +5,7 @@ import { mode } from '@chakra-ui/theme-tools'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Dict } from '@chakra-ui/utils'
 import Font from '../components/Font'
+import '../styles/globals.css'
 
 const styles = {
   global: (props: StyleFunctionProps | Dict<any>) => ({
