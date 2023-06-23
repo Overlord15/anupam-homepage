@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Navbar.tsx", "pages/index.tsx", "pages/_app.tsx", "components/Theme-toggler-button.tsx", "components/Section.js", "components/model.js", "components/Font.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Navbar.tsx", "pages/index.tsx", "pages/_app.tsx", "components/Theme-toggler-button.tsx", "components/Section.js", "components/model.js", "components/Font.tsx", "components/layout/Layout.js"],
   "exclude": ["node_modules"]
 }

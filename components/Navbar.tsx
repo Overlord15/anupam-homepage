@@ -6,7 +6,7 @@ import { FaPaperPlane } from 'react-icons/fa'
 import { VscGithub } from 'react-icons/vsc'
 import { GiRabbit } from 'react-icons/gi'
 import { TfiAlignJustify } from 'react-icons/tfi'
-import { IoIosCreate } from 'react-icons/io'
+import { MdWork } from 'react-icons/md'
 import ThemeToggleButton from './Theme-toggler-button';
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 
@@ -32,9 +32,6 @@ export default function Navbar() {
                                     <Nextlink href="/work" passHref scroll={false}>
                                         <Link href="/work" pl="5px" pr="5px" size="sm" ml="7" border="2px" borderColor="transparent" _hover={{ color: "red.500", textDecoration: "underline", }} fontWeight="400">Works</Link>
                                     </Nextlink>
-                                    {/* <Nextlink href="../home/post" passHref scroll={false}>
-                                        <Link pl="5px" pr="5px" ml="5" mt="10px" size="sm" border="2px" borderColor="transparent" _hover={{ color: "green.500", textDecoration: "underline", }} fontWeight="400" href="../work">Post</Link>
-                                    </Nextlink> */}
                                     <Nextlink href="/anime" passHref scroll={false}>
                                         <Link href="/anime" pl="px" pr="5px" size="sm" ml="6" border="2px" borderColor="transparent" _hover={{ color: "teal.500", textDecoration: "underline", }} fontWeight="400">Anime</Link>
                                     </Nextlink>
@@ -55,11 +52,8 @@ export default function Navbar() {
                                     </MenuButton>
                                     <MenuList>
                                         <Nextlink href="../work" passHref>
-                                            <MenuItem as='button'><Text fontWeight="600"><Flex alignItems="center"><IoIosCreate />&nbsp;&nbsp;Works</Flex></Text></MenuItem>
+                                            <MenuItem as='button'><Text fontWeight="600"><Flex alignItems="center"><MdWork />&nbsp;&nbsp;Works</Flex></Text></MenuItem>
                                         </Nextlink>
-                                        {/* <Nextlink href="../home/post" passHref>
-                                            <MenuItem as='button'><Text fontWeight="600"><Flex alignItems="center"><FaPaperPlane/>&nbsp;&nbsp;Post</Flex></Text></MenuItem>
-                                        </Nextlink> */}
                                         <Nextlink target="_blank" href="https://github.com/Overlord15/anupam-homepage" passHref>
                                             <MenuItem as='button'><Text fontWeight="600"><Flex alignItems="center"><VscGithub />&nbsp;&nbsp;Source</Flex></Text></MenuItem>
                                         </Nextlink>

@@ -1,16 +1,13 @@
 import Head from 'next/head'
-// import Nextlink from 'next/link'
 import { Button, Text, Center, Box, Container, Flex, Heading, Link, Spacer, useMediaQuery, useColorModeValue, Image } from '@chakra-ui/react'
 import { useColorMode } from "@chakra-ui/color-mode";
 import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa'
 import styled from '@emotion/styled'
 import Section from '../components/Section'
-import Navbar from '../components/Navbar'
-// import BackToTopButton from '../components/scrollbtn';
 import dynamic from 'next/dynamic';
 import Footer from '../components/Footer';
-import ThreeJSComponent from '../components/Model';
-import VoxelDog from '../components/Model';
+import { BsChevronRight } from "react-icons/bs";
+import Layout from '../components/layout/Layout';
 
 export const BioSection = styled(Box)`
   padding-left: 3.4em;
@@ -31,6 +28,12 @@ const Home = () => {
     const isDark = colorMode === "dark";
     const [isLargerThan650] = useMediaQuery('(min-width: 650px)')
     const [isLargerThan6502] = useMediaQuery('(max-width: 650px)')
+    const downloadFile = () => {
+        const downloadLink = document.createElement('a');
+        downloadLink.href = 'https://anupam-homepage.vercel.app/Anupam%Kumar%Khamrai%Portfolio.pdf';
+        downloadLink.download = 'Anupam Kumar Khamrai CV.pdf';
+        downloadLink.click();
+    };
     return (
         <>
             <Head>
@@ -58,10 +61,7 @@ const Home = () => {
                 <meta name="twitter:site" content="@anupam-homepage" />
                 <meta name="twitter:creator" content="@1Khamrai" />
             </Head>
-            <Navbar />
-            <Container pt="100" justifyContent="center">
                 <Section delay={0.1}>
-                    <VoxelDog />
                     <Box fontSize="15px" fontWeight="semibold" border="lg" mb="5" mt="70" p="3" textAlign="center" borderRadius="8px" bg={useColorModeValue('whiteAlpha.400', 'whiteAlpha.200')} style={{ backdropFilter: 'blur(10px)' }}>
                         Hello there, I&apos;m Anupam an Indie Developer based in India.
                     </Box>
@@ -101,13 +101,20 @@ const Home = () => {
                 </Section>
                 <Section delay={0.3}>
                     <Flex mt="12">
-                        <Text pl="2" style={{ fontSize: 20, fontWeight: "bold", lineHeight: 1, marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "#525252", textDecorationThickness: 4, textUnderlineOffset: 6 }}>
+                        <Text pl="2" style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif", fontSize: 20, fontWeight: "bold", lineHeight: 1, marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "#525252", textDecorationThickness: 4, textUnderlineOffset: 6 }}>
                             Work
                         </Text>
                     </Flex>
                     <Text fontWeight={400} fontSize="16px" ml="2" mr="2" mt="3" textAlign="justify">
                         &nbsp;&nbsp;My name is Anupam, a BCA student with an interest in web development and automation. I love bringing ideas to life and experimenting with new tools to create efficient applications. Photography and video editing are also passions of mine. I enjoy capturing unique images and telling stories through my edited videos. I am also an anime enthusiast and enjoy watching different genres of anime and manga.
                     </Text>
+                    <Center>
+                        <Button mt="5" colorScheme="teal" _hover={{ cursor: "pointer",colorScheme: "whatsapp" }}>
+                            <Link href='/doc/Anupam Kumar Khamrai CV.pdf' download textDecoration="none" textAlign="center" css={{display:"flex"}} _hover={{textDecoration: "none"}}>
+                                My CV &nbsp; <BsChevronRight />
+                            </Link>
+                        </Button>
+                    </Center>
                 </Section>
                 <Section delay={0.5}>
                     <Flex mt="12">
@@ -152,18 +159,7 @@ const Home = () => {
                         <Button variant="ghost" color="teal.300" ><FaInstagram /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://www.instagram.com/otaku_anupam_k/' isExternal>@otaku_anupam_k</Link></Button>
                     </Flex>
                 </Section>
-                {/* <Section delay={1.1}>
-                    <Section delay={1.2}>
-                        <Center>
-                            <Button mt="7" bg={isDark ? "teal.300" : "purple.300"} color={isDark ? "black" : "white"} >
-                                <Link href='/doc/ArpitaRaniKhamraiCV.pdf' download textAlign="center" textDecoration="none" _hover={{ textDecoration: "none", }}>Download My CV</Link>
-                            </Button>
-                        </Center>
-                    </Section>
-                </Section> */}
                 <Footer />
-            </Container>
-            {/* <BackToTopButton /> */}
         </>
     )
 }

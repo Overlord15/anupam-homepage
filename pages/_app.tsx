@@ -5,6 +5,7 @@ import { mode } from '@chakra-ui/theme-tools'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Dict } from '@chakra-ui/utils'
 import Font from '../components/Font'
+import Layout from '../components/layout/Layout'
 
 const styles = {
   global: (props: StyleFunctionProps | Dict<any>) => ({
@@ -30,8 +31,10 @@ const theme = extendTheme({ config, styles })
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
-      <Font />
-      <Component {...pageProps} />
+      <Layout>
+        <Font />
+        <Component {...pageProps} />
+      </Layout>
     </ChakraProvider>
   )
 }

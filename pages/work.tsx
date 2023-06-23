@@ -1,11 +1,11 @@
 import React from 'react'
-import { Container, Box, Image, useMediaQuery, Text, Center, Heading, Link } from '@chakra-ui/react'
+import { Box, Image, useMediaQuery, Text, Center, Heading, Link } from '@chakra-ui/react'
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
 import Nextlink from 'next/link'
 import Bge from '../components/badge'
 import Section from '../components/Section'
 import Footer from '../components/Footer'
+import Layout from '../components/layout/Layout'
 
 const Work = () => {
   const [isLargerThan650] = useMediaQuery('(min-width: 650px)')
@@ -33,12 +33,8 @@ const Work = () => {
         <meta name="twitter:site" content="@anupam-homepage" />
         <meta name="twitter:creator" content="@1Khamrai" />
       </Head>
-
-      <Navbar />
-
-      <Container pt="100">
-        <Section delay={0.2}>
-          <Text pb={15} fontSize={20} fontWeight={600}>Works</Text>
+        <Section  delay={0.2}>
+          <Text mt="75" pb={15} fontSize={20} fontWeight={600}>Works</Text>
         </Section>
         <Section delay={0.4}>
           {isLargerThan650 &&
@@ -91,8 +87,6 @@ const Work = () => {
             </p>
           }
         </Section>
-        <Footer />
-      </Container>
     </>
   )
 }
