@@ -10,12 +10,12 @@ import Navbar from '../components/Navbar'
 import dynamic from 'next/dynamic';
 import Footer from '../components/Footer';
 import ThreeJSComponent from '../components/Model';
+import VoxelDog from '../components/Model';
 
 export const BioSection = styled(Box)`
   padding-left: 3.4em;
   text-indent: -3.4em;
   font-weight: 400;
-//   font-family: 'M PLUS Rounded 1c', sans-serif;
   padding-bottom: 10px;
 `
 
@@ -59,26 +59,24 @@ const Home = () => {
                 <meta name="twitter:creator" content="@1Khamrai" />
             </Head>
             <Navbar />
-            <Container pt="100">
+            <Container pt="100" justifyContent="center">
                 <Section delay={0.1}>
-                    <Box fontSize="15px" fontWeight="semibold" border="lg" mb="12" p="3" textAlign="center" borderRadius="8px" bg={useColorModeValue('whiteAlpha.400', 'whiteAlpha.200')} style={{ backdropFilter: 'blur(10px)' }}>
+                    <VoxelDog />
+                    <Box fontSize="15px" fontWeight="semibold" border="lg" mb="5" mt="70" p="3" textAlign="center" borderRadius="8px" bg={useColorModeValue('whiteAlpha.400', 'whiteAlpha.200')} style={{ backdropFilter: 'blur(10px)' }}>
                         Hello there, I&apos;m Anupam an Indie Developer based in India.
-                    </Box>
-                    <Box>
-                        <ThreeJSComponent />
                     </Box>
                     <div>
                         {isLargerThan650 &&
                             <p>
                                 <Flex>
-                                    <Box ml="2" pt="5">
-                                        <Heading fontFamily="'M PLUS Rounded 1c', sans-serif;">
+                                    <Box ml="2" pt="5" mt="5">
+                                        <Heading size="lg" fontFamily="'M PLUS Rounded 1c', sans-serif;">
                                             Anupam Kumar Khamrai
                                         </Heading>
                                         <p><Text fontWeight="semibold" pt="3" fontSize="15px">( Developer / Photographer / Digital Content Creator )</Text></p>
                                     </Box>
                                     <Spacer></Spacer>
-                                    <Image border="2px" mt="8" mr="5" borderRadius='full' boxSize='130px' src='anupamlite.jpg' alt='Anupam Kumar Khamrai Image Social' ml="6" />
+                                    <Image border="2px" mt="8" mr="5" borderRadius='full' boxSize='100px' src='anupamlite.jpg' alt='Anupam Kumar Khamrai Image Social' ml="6" />
                                 </Flex>
                             </p>
                         }
@@ -87,7 +85,7 @@ const Home = () => {
                         {isLargerThan6502 &&
                             <p>
                                 <Center>
-                                    <Heading textAlign="center">
+                                    <Heading size="" textAlign="center" fontFamily="'M PLUS Rounded 1c', sans-serif;">
                                         Anupam Kumar Khamrai
                                     </Heading>
                                 </Center>

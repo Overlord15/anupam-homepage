@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
-import { loadGLTFModel } from '../lib/model'
-import { DogSpinner, DogContainer } from './voxel-dog-loader'
+import { loadGLTFModel } from '../lib/ModelConfig'
+import { DogSpinner, DogContainer } from './ModelLoader'
 
 function easeOutCirc(x) {
     return Math.sqrt(1 - Math.pow(x - 1, 4))
@@ -12,7 +12,7 @@ const VoxelDog = () => {
     const refContainer = useRef()
     const [loading, setLoading] = useState(true)
     const refRenderer = useRef()
-    const urlDogGLB = 'https://anupam-homepage.vercel.app/dog.glb'
+    const urlDogGLB = '/dog.glb'
 
     const handleWindowResize = useCallback(() => {
         const { current: renderer } = refRenderer
