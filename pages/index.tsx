@@ -159,7 +159,6 @@ const Home = () => {
                         <Button variant="ghost" color="teal.300" ><FaInstagram /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://www.instagram.com/otaku_anupam_k/' isExternal>@otaku_anupam_k</Link></Button>
                     </Flex>
                 </Section>
-                <Footer />
         </>
     )
 }

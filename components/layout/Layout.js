@@ -10,8 +10,6 @@ const LazyVoxelDog = dynamic(() => import('../Model'), {
 });
 
 const Layout = ({ children }) => {
-  console.log('Layout component rendering'); // Debugging statement
-
   return (
     <>
       <Navbar />

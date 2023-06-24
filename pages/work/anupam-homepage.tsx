@@ -34,7 +34,6 @@ const anupam_homepage = () => {
                 <meta name="twitter:site" content="@anupam-homepage" />
                 <meta name="twitter:creator" content="@1Khamrai" />
             </Head>
-            <Navbar />
             <Container pt="100">
                 <Section delay={0.2}>
                     <Text>
@@ -64,7 +63,6 @@ const anupam_homepage = () => {
                 <Section delay={0.8}>
                     <Image border="2px" borderRadius={15} src="/anupam-khamrai-homepage.png" alt="anupam-khamrai-homepage" mt="5" />
                 </Section>
-                <Footer />
             </Container>
         </>
     )
