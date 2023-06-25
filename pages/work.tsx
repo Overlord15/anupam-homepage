@@ -34,7 +34,7 @@ const Work = () => {
         <meta name="twitter:creator" content="@1Khamrai" />
       </Head>
         <Section  delay={0.2}>
-          <Text mt="75" pb={15} fontSize={20} fontWeight={600}>Works</Text>
+          <Text mt="40" pb={15} fontSize={20} fontWeight={600}>Works</Text>
         </Section>
         <Section delay={0.4}>
           {isLargerThan650 &&

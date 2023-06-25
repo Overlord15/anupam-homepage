@@ -37,7 +37,7 @@ const anupam_homepage = () => {
             <Container pt="100">
                 <Section delay={0.2}>
                     <Text>
-                        <Text pb={15} fontSize={20} fontWeight={600} display="inline-flex" mr="2">
+                        <Text pb={15} fontSize={20} fontWeight={600} display="inline-flex" mr="2" pt="20">
                             <Nextlink href="../work"><Text _hover={{ textDecoration: "underline" }} color="pink.300">Works</Text></Nextlink>
                             <ChevronRightIcon boxSize={25} pt="2" /> Anupam Khamrai Homepage
                         </Text>
@@ -61,7 +61,7 @@ const anupam_homepage = () => {
                     </Box>
                 </Section>
                 <Section delay={0.8}>
-                    <Image border="2px" borderRadius={15} src="/anupam-khamrai-homepage.png" alt="anupam-khamrai-homepage" mt="5" />
+                    <Image loading='lazy' border="2px" borderRadius={15} src="/anupam-khamrai-homepage.png" alt="anupam-khamrai-homepage" mt="5" />
                 </Section>
             </Container>
         </>

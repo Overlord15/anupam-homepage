@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <Container pt="100">
+      <Container pt="90">
         <LazyVoxelDog />
         {children}
         <Footer />

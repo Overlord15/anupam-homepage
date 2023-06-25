@@ -62,7 +62,7 @@ const Home = () => {
                 <meta name="twitter:creator" content="@1Khamrai" />
             </Head>
                 <Section delay={0.1}>
-                    <Box fontSize="15px" fontWeight="semibold" border="lg" mb="5" mt="70" p="3" textAlign="center" borderRadius="8px" bg={useColorModeValue('whiteAlpha.400', 'whiteAlpha.200')} style={{ backdropFilter: 'blur(10px)' }}>
+                    <Box fontSize="15px" fontWeight="semibold" border="lg" mb="5" mt="40" p="3" textAlign="center" borderRadius="8px" bg={useColorModeValue('whiteAlpha.400', 'whiteAlpha.200')} style={{ backdropFilter: 'blur(10px)' }}>
                         Hello there, I&apos;m Anupam an Indie Developer based in India.
                     </Box>
                     <div>
